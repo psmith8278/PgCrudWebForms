@@ -1,0 +1,12 @@
+# Ignore build output
+/bin/
+/obj/
+/packages/
+/*.user
+/*.suo
+/*.vspscc
+/*.vssscc
+*.dbmdl
+*.DS_Store
+*.userosscache
+*.sln.docstates
