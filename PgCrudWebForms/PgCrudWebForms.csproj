@@ -1,0 +1,69 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>PgCrudWebForms</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="App_Code\DataAccess.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Products.aspx.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddProduct.aspx.cs">
+      <DependentUpon>AddProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditProduct.aspx.cs">
+      <DependentUpon>EditProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Customers.aspx.cs">
+      <DependentUpon>Customers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddCustomer.aspx.cs">
+      <DependentUpon>AddCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditCustomer.aspx.cs">
+      <DependentUpon>EditCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Orders.aspx.cs">
+      <DependentUpon>Orders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddOrder.aspx.cs">
+      <DependentUpon>AddOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditOrder.aspx.cs">
+      <DependentUpon>EditOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrderItems.aspx.cs">
+      <DependentUpon>OrderItems.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddOrderItem.aspx.cs">
+      <DependentUpon>AddOrderItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditOrderItem.aspx.cs">
+      <DependentUpon>EditOrderItem.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Web.config" />
+    <Content Include="Default.aspx" />
+    <Content Include="Products.aspx" />
+    <Content Include="AddProduct.aspx" />
+    <Content Include="EditProduct.aspx" />
+    <Content Include="Customers.aspx" />
+    <Content Include="AddCustomer.aspx" />
+    <Content Include="EditCustomer.aspx" />
+    <Content Include="Orders.aspx" />
+    <Content Include="AddOrder.aspx" />
+    <Content Include="EditOrder.aspx" />
+    <Content Include="OrderItems.aspx" />
+    <Content Include="AddOrderItem.aspx" />
+    <Content Include="EditOrderItem.aspx" />
+    <Content Include="packages.config" />
+  </ItemGroup>
+
+</Project>
